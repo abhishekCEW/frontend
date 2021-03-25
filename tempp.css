@@ -1,0 +1,204 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box ;
+}
+.main{
+    width: 1300px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    margin: 40px 0;
+}
+.navbar{
+    display: flex;
+    flex-grow: 1;
+    max-width: 40%;
+    justify-content: space-between;
+}
+nav a{
+    text-decoration: none;
+}
+.button1{
+    background-color:hsl(12, 88%, 59%);
+    color: white;
+    border-radius: 1.5em;
+    width: 100px;
+    padding: 1em;
+    margin-right: 20px;
+    border-style: none;
+    font-size: 0.7em;
+}
+.main-container1{
+    display: flex;
+}
+.sec1{
+    max-width: 650px;
+}
+.sec1 .quote1{
+    font-weight: 700;
+    font-size: 3.5em;
+    width: 70%;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+.sec1 .para1{
+    width: 45%;
+    font-size: 1em;
+    color: grey;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.button2{
+    background-color:hsl(12, 88%, 59%);
+    color: white;
+    border-radius: 1.5em;
+    width: 100px;
+    padding: 1em;
+    border-style: none;
+    font-size: 0.7em;
+}
+.sub-sec2{
+    margin-left: 140px;
+}
+.img{
+    width: 100%;
+}
+.main-container2{
+    width: 1300px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+.container2-section1{
+    max-width: 650px;
+    margin-top: 50px;
+}
+.container2-section1 .question1{
+    font-size: 2.3em;
+    font-weight: 600;
+    max-width: 60%;
+}
+.container2-section1 .para2{
+    font-size: 1em;
+    color: grey;
+    max-width: 45%;
+    margin-top: 30px;
+}
+
+.container2-section2{
+    max-width: 650px;
+    margin-top: 50px;
+}
+.container2-section2-subsection{
+    margin-left: 15%;
+}
+.container2-section2 .sbutton1{
+    background-color:hsl(12, 88%, 59%);
+    color: white;
+    border-radius: 1.5em;
+    width: 55px;
+    padding: 6px 10px;
+    margin-left: 80px;
+}
+.container2-section2 .labelsize{
+    margin-left: 20px;
+    font-weight: 600;
+}
+.container2-section2 .para{
+    font-size: 1em;
+    color: grey;
+    max-width: 65%;
+    margin-left: 160px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    
+}
+.container2-section2 .para-different{
+    font-size: 1em;
+    color: grey;
+    max-width: 68%;
+    margin-left: 160px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+.main-container2 .container2-section3{
+    margin: 0 auto;
+    font-weight: 700;
+    font-size: 1.5em;
+    margin-top: 60px;
+}
+.main-container3{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 70px;
+
+}
+.sub-section{
+    width: 32%;
+    background-color: hsl(0, 0%, 98%);
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+}
+.name-logo{
+    height: 50px;
+    width: 50px;
+    position:relative ;
+    top: -25px;
+}
+.sub-section-para1{
+    font-weight: 600;
+    margin-top: -10px;
+}
+.sub-section-para2{
+    color: grey;
+    width: 80%;
+    margin-top: 20px;
+}
+.main-container4{
+    margin-left: 47%;
+    margin-top: 30px;
+}
+.button3{
+    background-color:hsl(12, 88%, 59%);
+    color: white;
+    border-radius: 1.5em;
+    width: 100px;
+    padding: 1em;
+    font-size: 0.7em;
+    border-style: none;
+    margin-bottom: 120px;
+}
+.footer1{
+    display: flex;
+    background-color:hsl(12, 88%, 59%) ;
+    justify-content: space-between;
+    height: 150px;
+}
+.footer1 .sub-footer1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 2em;
+    max-width: 25%;
+    margin-left: 200px;
+}
+.button4{
+    background-color:white;
+    color: hsl(12, 88%, 59%);
+    border-radius: 1.5em;
+    width: 100px;
+    padding: 1em;
+    border-style: none;
+    font-size: 0.7em;
+    margin-top: 55px;
+    margin-right: 200px;
+}
